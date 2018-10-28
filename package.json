@@ -1,0 +1,12 @@
+{
+  "name": "electron-metadata-II",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^3.0.6"
+  }
+}
