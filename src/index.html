@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>File Metadata Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Metadata viewer</h1>
+
+  <form>
+
+    <div>
+      <label for="filePicker"></label>
+      <input type="file" id="filePicker" name="filePicker" multiple>
+    </div>
+
+    <button>Get Metadata</button>
+  </form>
+
+  <hr>
+
+  <pre id="data">
+    Placeholder for data.
+  </pre>
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
